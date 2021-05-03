@@ -64,13 +64,22 @@ westernNotes = [
     "G", "G#",
 ]
 
-scaleNames = [ "Maj", "min" ]
-majorScale = [ 2, 4, 5, 7, 9, 11 ]
-minorScale = [ 2, 3, 5, 7, 9, 11 ]
-scaleTypes = [ majorScale, minorScale ]
+scaleNames       = [ "Maj", "min", "harmonic", "melodic", "ionian", "dorian", "phrygian", "lydian", "mixolydian", "aeolian", "locrian"]
+majorScale       = [ 2, 4, 5, 7, 9, 11 ]
+minorScale       = [ 2, 3, 5, 7, 8, 10 ]
+harmonicMinScale = [ 2, 3, 5, 7, 8, 11 ]
+melodicMinScale  = [ 2, 3, 5, 7, 9, 11 ]
+ionianScale      = [ 2, 4, 5, 7, 9, 11 ]
+dorianScale      = [ 2, 3, 5, 7, 9, 10 ]
+phrygianScale    = [ 1, 3, 5, 7, 8, 10 ]
+lydianScale      = [ 2, 4, 6, 7, 9, 11 ]
+mixolydianScale  = [ 2, 4, 5, 7, 9, 10 ]
+aeolianScale     = [ 2, 3, 5, 7, 8, 10 ]
+locrianScale     = [ 1, 3, 4, 6, 8, 10, 11 ]
+scaleTypes       = [ majorScale, minorScale, harmonicMinScale, melodicMinScale, ionianScale, dorianScale, phrygianScale, lydianScale, mixolydianScale, aeolianScale, locrianScale ]
 
 
-chordNames = [ "Maj", "min", "dim", "Maj7", "min7", "dom7", "sus2", "sus4", "aug" ]
+chordNames  = [ "Maj", "min", "dim", "Maj7", "min7", "dom7", "sus2", "sus4", "aug" ]
 majorChord  = [ 4, 7 ]
 minorChord  = [ 3, 7 ]
 dimChord    = [ 3, 6 ]
